@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 15vh;
+    background: #444;
+    color: #DDD;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+table, section, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    padding-top: 5vh;
+}
+.row td {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 2em;
+}
+#player {
+    font-size: larger;
+    
+}
+body {
+    background-image: linear-gradient(120deg,#f6d365, #fda085);
+    color: black;
+    min-height: 100vh;
+}
+
